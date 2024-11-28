@@ -1,0 +1,38 @@
+UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO           
+FES ARAGON. D.R. 2012-2023           
+Ernesto Peñaloza Romero 
+Fecha: 18/11/2024 
+Hora : 12:24:22.56 
+======================================= 
+.           
+.           
+.           
+ESTILO 
+================= 
+.           
+.           
+.           
+COMPILANDO 
+================= 
+CORRECTOR.CPP
+CORRECTOR.CPP(19) : error C2143: error de sintaxis : falta ',' delante de ':'
+CORRECTOR.CPP(19) : error C2143: error de sintaxis : falta ';' delante de '{'
+CORRECTOR.CPP(60) : error C2143: error de sintaxis : falta ',' delante de ':'
+CORRECTOR.CPP(60) : error C2530: 'par' : se deben inicializar las referencias
+CORRECTOR.CPP(60) : error C3531: 'par': un s¡mbolo cuyo tipo contiene 'auto' debe tener un inicializador
+CORRECTOR.CPP(60) : error C2143: error de sintaxis : falta ';' delante de '{'
+CORRECTOR.CPP(61) : error C2228: el operando izquierdo de '.first' debe tener class/struct/union
+        el tipo es 'int'
+CORRECTOR.CPP(61) : error C2228: el operando izquierdo de '.second' debe tener class/struct/union
+        el tipo es 'int'
+DLLMAIN.CPP
+Generando c¢digo...
+LINK : fatal error LNK1181: no se puede abrir el archivo de entrada 'corrector.obj'
+.          
+.          
+PROBANDO PROGRAMA   
+================= 
+No se genero binario. Nada que probar 
+.           
+.           
+.           
