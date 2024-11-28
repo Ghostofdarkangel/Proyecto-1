@@ -1,0 +1,806 @@
+UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO           
+FES ARAGON. D.R. 2012-2023           
+Ernesto Peñaloza Romero 
+Fecha: 22/11/2024 
+Hora : 18:06:49.54 
+======================================= 
+.           
+.           
+.           
+ESTILO 
+================= 
+.           
+.           
+.           
+COMPILANDO 
+================= 
+CORRECTOR.CPP
+CORRECTOR.CPP(29) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h(105) : vea la declaraci¢n de 'strcpy'
+CORRECTOR.CPP(57) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h(105) : vea la declaraci¢n de 'strcpy'
+CORRECTOR.CPP(75) : warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\INCLUDE\string.h(105) : vea la declaraci¢n de 'strcpy'
+DLLMAIN.CPP
+Generando c¢digo...
+   Creando biblioteca CYP06.lib y objeto CYP06.exp
+.          
+.          
+PROBANDO PROGRAMA   
+================= 
+ESTILO    
+=================
+Resultado          :  2
+VALOR DEL ESTILO   :  2
+
+
+CORRECCION    
+=================
+
+* 6 Pruebas DICCIONARIO
+_________________________________
+
+	Probando archivo: .\CYP06\CYP06-00.dat
+
+Prueba 1. Pruebas del diccionario
+* Archivo: CYP06-00.dat
+
+
+   ==> El numero de palabras en el diccionario no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [27]
+
+
+   ==> El diccionario del alumno y la referencia no coinciden
+
+
+   ==> Existen 1 palabras en el diccionario del alumno que no existen en la referencia.
+[AquiVaElDiccionario] 
+	Probando archivo: .\CYP06\CYP06-01.dat
+
+Prueba 2. Pruebas del diccionario
+* Archivo: CYP06-01.dat
+
+
+   ==> El numero de palabras en el diccionario no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [8437]
+
+
+   ==> El diccionario del alumno y la referencia no coinciden
+
+
+   ==> Existen palabras en el diccionario de la referencia que no existen en el del alumno.
+   ==> Se listan las primeras 5.
+   * [']
+   * [&]
+   * [$5]
+   * [$1]
+   * [!]
+
+	Probando archivo: .\CYP06\CYP06-02.dat
+
+Prueba 3. Pruebas del diccionario
+* Archivo: CYP06-02.dat
+
+
+   ==> El numero de palabras en el diccionario no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [16400]
+
+
+   ==> El diccionario del alumno y la referencia no coinciden
+
+
+   ==> Existen palabras en el diccionario de la referencia que no existen en el del alumno.
+   ==> Se listan las primeras 5.
+   * [$5]
+   * [$1]
+   * [$]
+   * ["]
+   * [!]
+
+	Probando archivo: .\CYP06\CYP06-03.dat
+
+Prueba 4. Pruebas del diccionario
+* Archivo: CYP06-03.dat
+
+
+   ==> El numero de palabras en el diccionario no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [8945]
+
+
+   ==> El diccionario del alumno y la referencia no coinciden
+
+
+   ==> Existen palabras en el diccionario de la referencia que no existen en el del alumno.
+   ==> Se listan las primeras 5.
+   * [']
+   * [$5]
+   * [$1]
+   * ["]
+   * [!]
+
+	Probando archivo: .\CYP06\CYP06-04.dat
+
+Prueba 5. Pruebas del diccionario
+* Archivo: CYP06-04.dat
+
+
+   ==> El numero de palabras en el diccionario no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [8386]
+
+
+   ==> El diccionario del alumno y la referencia no coinciden
+
+
+   ==> Existen palabras en el diccionario de la referencia que no existen en el del alumno.
+   ==> Se listan las primeras 5.
+   * [$5]
+   * [$1]
+   * [#49258]
+   * ["]
+   * [!]
+
+	Probando archivo: .\CYP06\CYP06-05.dat
+
+Prueba 6. Pruebas del diccionario
+* Archivo: CYP06-05.dat
+
+
+   ==> El numero de palabras en el diccionario no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [8342]
+
+
+   ==> El diccionario del alumno y la referencia no coinciden
+
+
+   ==> Existen palabras en el diccionario de la referencia que no existen en el del alumno.
+   ==> Se listan las primeras 5.
+   * [$5]
+   * [$1]
+   * [#49259]
+   * ["]
+   * [!]
+.
+.
+==> No OK.
+.
+Resultado: 1/6[  0.06%]
+.
+.
+
+* 50 Pruebas aleatorias de clonacion de palabra
+_________________________________
+
+Prueba 1. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[xvrirmlwmwvdobborqq]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1286]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cvrirmlwmwvdobborqq]
+   * [bxvrirmlwmwvdobborqq]
+   * [bvrirmlwmwvdobborqq]
+   * [axvrirmlwmwvdobborqq]
+   * [avrirmlwmwvdobborqq]
+
+Prueba 2. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[melrjqxstyjrvyqbrcerqywuvwiqldwuemvbwsmsg]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2738]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [celrjqxstyjrvyqbrcerqywuvwiqldwuemvbwsmsg]
+   * [bmelrjqxstyjrvyqbrcerqywuvwiqldwuemvbwsmsg]
+   * [belrjqxstyjrvyqbrcerqywuvwiqldwuemvbwsmsg]
+   * [amelrjqxstyjrvyqbrcerqywuvwiqldwuemvbwsmsg]
+   * [aelrjqxstyjrvyqbrcerqywuvwiqldwuemvbwsmsg]
+
+Prueba 3. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[yhushosynjldjlxxbtswspeiqguldc]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2012]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [chushosynjldjlxxbtswspeiqguldc]
+   * [byhushosynjldjlxxbtswspeiqguldc]
+   * [bhushosynjldjlxxbtswspeiqguldc]
+   * [ayhushosynjldjlxxbtswspeiqguldc]
+   * [ahushosynjldjlxxbtswspeiqguldc]
+
+Prueba 4. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[hbboey]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [428]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [bhbboey]
+   * [bboey]
+   * [bbboey]
+   * [ahbboey]
+   * [abboey]
+
+Prueba 5. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[icqwlrikdielhaaef]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1154]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [ccqwlrikdielhaaef]
+   * [bicqwlrikdielhaaef]
+   * [bcqwlrikdielhaaef]
+   * [aicqwlrikdielhaaef]
+   * [acqwlrikdielhaaef]
+
+Prueba 6. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[t]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [97]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [c]
+   * [bt]
+   * [b]
+   * [at]
+   * [a]
+
+Prueba 7. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[eyvupqtmtmcqfji]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1022]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [ceyvupqtmtmcqfji]
+   * [byvupqtmtmcqfji]
+   * [beyvupqtmtmcqfji]
+   * [ayvupqtmtmcqfji]
+   * [aeyvupqtmtmcqfji]
+
+Prueba 8. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[ekwmiaghswupfeuwbpymaf]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1484]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cekwmiaghswupfeuwbpymaf]
+   * [bkwmiaghswupfeuwbpymaf]
+   * [bekwmiaghswupfeuwbpymaf]
+   * [akwmiaghswupfeuwbpymaf]
+   * [aekwmiaghswupfeuwbpymaf]
+
+Prueba 9. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[gyhijpiybbghbqpltnfjn]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1418]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cgyhijpiybbghbqpltnfjn]
+   * [byhijpiybbghbqpltnfjn]
+   * [bgyhijpiybbghbqpltnfjn]
+   * [ayhijpiybbghbqpltnfjn]
+   * [agyhijpiybbghbqpltnfjn]
+
+Prueba 10. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[j]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [97]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [c]
+   * [bj]
+   * [b]
+   * [aj]
+   * [a]
+
+Prueba 11. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[ffxthippvrimfejsojncyrosoey]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1814]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cffxthippvrimfejsojncyrosoey]
+   * [bfxthippvrimfejsojncyrosoey]
+   * [bffxthippvrimfejsojncyrosoey]
+   * [afxthippvrimfejsojncyrosoey]
+   * [affxthippvrimfejsojncyrosoey]
+
+Prueba 12. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[bgnkem]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [428]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [bbgnkem]
+   * [bankem]
+   * [bagnkem]
+   * [agnkem]
+   * [abgnkem]
+
+Prueba 13. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[vvvemxgtmowshtlrvpndo]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1418]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cvvemxgtmowshtlrvpndo]
+   * [bvvvemxgtmowshtlrvpndo]
+   * [bvvemxgtmowshtlrvpndo]
+   * [avvvemxgtmowshtlrvpndo]
+   * [avvemxgtmowshtlrvpndo]
+
+Prueba 14. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[yjjwjfmhnswig]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [890]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cjjwjfmhnswig]
+   * [byjjwjfmhnswig]
+   * [bjjwjfmhnswig]
+   * [ayjjwjfmhnswig]
+   * [ajjwjfmhnswig]
+
+Prueba 15. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[odaymkggcpjqham]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1022]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cdaymkggcpjqham]
+   * [bodaymkggcpjqham]
+   * [bdaymkggcpjqham]
+   * [aodaymkggcpjqham]
+   * [adaymkggcpjqham]
+
+Prueba 16. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[epexagotldy]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [758]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cepexagotldy]
+   * [bpexagotldy]
+   * [bepexagotldy]
+   * [apexagotldy]
+   * [aepexagotldy]
+
+Prueba 17. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[skqyjedordategemlokalgxmuvxgggixjkpwdtsnmunshr]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [3068]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [ckqyjedordategemlokalgxmuvxgggixjkpwdtsnmunshr]
+   * [bskqyjedordategemlokalgxmuvxgggixjkpwdtsnmunshr]
+   * [bkqyjedordategemlokalgxmuvxgggixjkpwdtsnmunshr]
+   * [askqyjedordategemlokalgxmuvxgggixjkpwdtsnmunshr]
+   * [akqyjedordategemlokalgxmuvxgggixjkpwdtsnmunshr]
+
+Prueba 18. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[phjnruwhdtxwqkgycxbadpqtcnyik]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1946]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [chjnruwhdtxwqkgycxbadpqtcnyik]
+   * [bphjnruwhdtxwqkgycxbadpqtcnyik]
+   * [bhjnruwhdtxwqkgycxbadpqtcnyik]
+   * [aphjnruwhdtxwqkgycxbadpqtcnyik]
+   * [ahjnruwhdtxwqkgycxbadpqtcnyik]
+
+Prueba 19. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[dfqdwmtmjfe]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [758]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cdfqdwmtmjfe]
+   * [bfqdwmtmjfe]
+   * [bdfqdwmtmjfe]
+   * [afqdwmtmjfe]
+   * [adfqdwmtmjfe]
+
+Prueba 20. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[ihpevfquqfyjogsnqoxpsbo]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1550]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [chpevfquqfyjogsnqoxpsbo]
+   * [bihpevfquqfyjogsnqoxpsbo]
+   * [bhpevfquqfyjogsnqoxpsbo]
+   * [aihpevfquqfyjogsnqoxpsbo]
+   * [ahpevfquqfyjogsnqoxpsbo]
+
+Prueba 21. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[fijhkohvjkphqgfkbx]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1220]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cfijhkohvjkphqgfkbx]
+   * [bijhkohvjkphqgfkbx]
+   * [bfijhkohvjkphqgfkbx]
+   * [aijhkohvjkphqgfkbx]
+   * [afijhkohvjkphqgfkbx]
+
+Prueba 22. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[njwgikrdppbpkylkrvdkuw]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1484]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cjwgikrdppbpkylkrvdkuw]
+   * [bnjwgikrdppbpkylkrvdkuw]
+   * [bjwgikrdppbpkylkrvdkuw]
+   * [anjwgikrdppbpkylkrvdkuw]
+   * [ajwgikrdppbpkylkrvdkuw]
+
+Prueba 23. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[vjkhojpjkvwmsylnqacthdgrotpptkhwkouhym]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2540]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cjkhojpjkvwmsylnqacthdgrotpptkhwkouhym]
+   * [bvjkhojpjkvwmsylnqacthdgrotpptkhwkouhym]
+   * [bjkhojpjkvwmsylnqacthdgrotpptkhwkouhym]
+   * [avjkhojpjkvwmsylnqacthdgrotpptkhwkouhym]
+   * [ajkhojpjkvwmsylnqacthdgrotpptkhwkouhym]
+
+Prueba 24. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[ykvyqnrkkwwjrkitjkjmnvnmtcrreurjtvpoxgvly]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2738]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [ckvyqnrkkwwjrkitjkjmnvnmtcrreurjtvpoxgvly]
+   * [bykvyqnrkkwwjrkitjkjmnvnmtcrreurjtvpoxgvly]
+   * [bkvyqnrkkwwjrkitjkjmnvnmtcrreurjtvpoxgvly]
+   * [aykvyqnrkkwwjrkitjkjmnvnmtcrreurjtvpoxgvly]
+   * [akvyqnrkkwwjrkitjkjmnvnmtcrreurjtvpoxgvly]
+
+Prueba 25. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[usgbarcexlljaymlguvtcy]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1484]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [csgbarcexlljaymlguvtcy]
+   * [busgbarcexlljaymlguvtcy]
+   * [bsgbarcexlljaymlguvtcy]
+   * [ausgbarcexlljaymlguvtcy]
+   * [asgbarcexlljaymlguvtcy]
+
+Prueba 26. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[vxpsuwhidemrojtywolrlyri]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1616]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cvxpsuwhidemrojtywolrlyri]
+   * [bxpsuwhidemrojtywolrlyri]
+   * [bvxpsuwhidemrojtywolrlyri]
+   * [axpsuwhidemrojtywolrlyri]
+   * [avxpsuwhidemrojtywolrlyri]
+
+Prueba 27. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[ibbwymukfamknfawwbfpsfkkymqkreyntf]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2276]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [bibbwymukfamknfawwbfpsfkkymqkreyntf]
+   * [bbwymukfamknfawwbfpsfkkymqkreyntf]
+   * [bbbwymukfamknfawwbfpsfkkymqkreyntf]
+   * [aibbwymukfamknfawwbfpsfkkymqkreyntf]
+   * [abbwymukfamknfawwbfpsfkkymqkreyntf]
+
+Prueba 28. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[mqayfoujnpyvvpsybpvjhpmmvnmnhafnbtcftrbp]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2672]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [cmqayfoujnpyvvpsybpvjhpmmvnmnhafnbtcftrbp]
+   * [bqayfoujnpyvvpsybpvjhpmmvnmnhafnbtcftrbp]
+   * [bmqayfoujnpyvvpsybpvjhpmmvnmnhafnbtcftrbp]
+   * [aqayfoujnpyvvpsybpvjhpmmvnmnhafnbtcftrbp]
+   * [amqayfoujnpyvvpsybpvjhpmmvnmnhafnbtcftrbp]
+
+Prueba 29. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[bwfioyydoacanphrcenydyulasnjasfrbutmtfdimog]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2870]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [bbfioyydoacanphrcenydyulasnjasfrbutmtfdimog]
+   * [bawfioyydoacanphrcenydyulasnjasfrbutmtfdimog]
+   * [bafioyydoacanphrcenydyulasnjasfrbutmtfdimog]
+   * [awfioyydoacanphrcenydyulasnjasfrbutmtfdimog]
+   * [abwfioyydoacanphrcenydyulasnjasfrbutmtfdimog]
+
+Prueba 30. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[lvdbajwyymrvgqhcpafavdrdtxg]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1814]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [clvdbajwyymrvgqhcpafavdrdtxg]
+   * [bvdbajwyymrvgqhcpafavdrdtxg]
+   * [blvdbajwyymrvgqhcpafavdrdtxg]
+   * [avdbajwyymrvgqhcpafavdrdtxg]
+   * [alvdbajwyymrvgqhcpafavdrdtxg]
+
+Prueba 31. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[huyiujxmgsxqvskooyhsdylpxsmytp]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [2012]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [chuyiujxmgsxqvskooyhsdylpxsmytp]
+   * [buyiujxmgsxqvskooyhsdylpxsmytp]
+   * [bhuyiujxmgsxqvskooyhsdylpxsmytp]
+   * [auyiujxmgsxqvskooyhsdylpxsmytp]
+   * [ahuyiujxmgsxqvskooyhsdylpxsmytp]
+
+Prueba 32. Pruebas de clonacion de palabras
+* Archivo: CYP06-05.dat
+    Palabra usada:[lcttpognqskjaxrfkci]
+
+
+   ==> El numero de palabras en las listas clonadas no coincide.
+   ==> Alumno    : [1].
+   ==> Referencia: [1286]
+
+
+   ==> La lista clonada del alumno y la referencia no coinciden.
+
+   ==> Existen 5 palabras en la lista clonada de la referencia que no existen en el del alumno.
+   * [ccttpognqskjaxrfkci]
+   * [blcttpognqskjaxrfkci]
+   * [bcttpognqskjaxrfkci]
+   * [alcttpognqskjaxrfkci]
+   * [acttpognqskjaxrfkci]
+
+Prueba 33. Pruebas de clonacion de palaSe detecto un fallo irrecuperable del programa en evaluación y el programa ha abortado la ejecución.
+Se recomienda ejecutar el programa en modo release con el archivo que ha provocado el fallo.
+.
+VALOR DE LA EVALUACION DE LA CORRECCION   :  0.00
+.
+.
+CONCLUSIONES    
+=================
+Resultado          :  0
+VALOR DE LAS CONCLUSIONES    :  0
+.
+EVALUACION FINAL     
+==============
+NUMERO DE CUENTA: 
+.
+.
+	EVALUACION TOTAL:  2.00
+.           
+.           
+.           
